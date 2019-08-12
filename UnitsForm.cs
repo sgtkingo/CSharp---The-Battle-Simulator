@@ -95,7 +95,7 @@ namespace TheBattleSimulator
                     if(!SelectDefPos.LoadUnit(U)){
                         MessageBox.Show("Position is out of capacity!");
                         return;
-                    }else MessageBox.Show("Position hold...");
+                    }else PrimalSimulator.ConsoleBox.WriteLineToConsole("Unit "+U.ToShortString()+" now hold position "+SelectDefPos.ToShortString());
             else {
                 if(U.MyDefPosition!=null){
                     U.MyDefPosition.UnloadUnit(U);

@@ -178,7 +178,7 @@ namespace TheBattleSimulator
         }
         private int ConvertStringToInt(string txt){
             int result=0;
-            int.TryParse(txt,out result);    
+            if(!int.TryParse(txt,out result))ConsoleBox.WriteLineToConsole("Detect file-read error: "+txt+" is NAN!");    
             return result;    
         }
 

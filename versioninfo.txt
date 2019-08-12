@@ -8,4 +8,5 @@ VERSION		DESCRIPITION
 1.0.5		Simulator multithreading ready
 1.0.6		Battle simulated fixed
 1.0.7		Unit loader prepare
-1.0.8		Unit loader finish
+1.0.8		Unit loader progress
+1.0.9		Unit loader finish

@@ -111,11 +111,11 @@ namespace TheBattleSimulator
             return Mark+" | "+ID+","+UnitName+",OMP: "+UnitPower+" | "+UnitAmount+", D: -";
         }
         public string ToLongString(){ 
-            return Mark+" Unit ID: "+ID+" Name ->"+UnitName+", OMP : "+UnitPower+", Total Power: "+UnitTotalPower+" ,UnitAmount: "+UnitAmount;   
+            return Mark+" ID: "+ID+" ->"+UnitName+", OMP : "+UnitPower+", Total Power: "+UnitTotalPower+" ,UnitAmount: "+UnitAmount;   
         }
         public string ToShortString()
         {
-            return Mark+" Unit ID: "+ID+" Name ->"+UnitName;
+            return Mark+" ID: "+ID+"->"+UnitName;
         }
         public int CalcIniciativity()
         {

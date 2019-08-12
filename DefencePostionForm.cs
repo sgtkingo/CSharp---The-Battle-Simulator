@@ -63,7 +63,6 @@ namespace TheBattleSimulator
         private void btn_OK_Click(object sender, EventArgs e)
         {
             if(!CheckData()){
-              MessageBox.Show("Enter data in the order, please..");
               return;  
             }
             if(!chbox_position.Checked&&!chbox_wall.Checked){
@@ -103,14 +102,13 @@ namespace TheBattleSimulator
         }
         public bool CheckData(){
             if((chbox_position.Checked)&&(num_pos_D.Value==0 || num_pos_W.Value==0 || num_pos_H.Value==0 || num_pos_T.Value==0)){ 
-              PrimalSimulator.ConsoleBox.WriteLineToConsole("Data position checked ERROR!");
+              PrimalSimulator.ConsoleBox.WriteLineToConsole("Position metrica checked ERROR!");
               return false;
             }
             if((chbox_wall.Checked)&&(num_wall_D.Value==0 || num_wall_W.Value==0 || num_wall_H.Value==0 || num_wall_T.Value==0)){ 
-              PrimalSimulator.ConsoleBox.WriteLineToConsole("Data wall checked ERROR!");
+              PrimalSimulator.ConsoleBox.WriteLineToConsole("Wall metrica checked ERROR!");
               return false;
             }
-            PrimalSimulator.ConsoleBox.WriteLineToConsole("Data checked!");
             return true;
         }
 

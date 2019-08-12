@@ -32,7 +32,7 @@
             this.l1 = new System.Windows.Forms.Label();
             this.unitInfo_box = new System.Windows.Forms.RichTextBox();
             this.l2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.num_amount = new System.Windows.Forms.NumericUpDown();
             this.l3 = new System.Windows.Forms.Label();
             this.btn_add = new System.Windows.Forms.Button();
             this.gb_pos = new System.Windows.Forms.GroupBox();
@@ -42,7 +42,7 @@
             this.l_position = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.chbox_hold = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_amount)).BeginInit();
             this.gb_pos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,12 +81,17 @@
             this.l2.TabIndex = 3;
             this.l2.Text = "Unit Info:";
             // 
-            // numericUpDown1
+            // num_amount
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(406, 346);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(168, 20);
-            this.numericUpDown1.TabIndex = 4;
+            this.num_amount.Location = new System.Drawing.Point(406, 346);
+            this.num_amount.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.num_amount.Name = "num_amount";
+            this.num_amount.Size = new System.Drawing.Size(168, 20);
+            this.num_amount.TabIndex = 4;
             // 
             // l3
             // 
@@ -105,6 +110,7 @@
             this.btn_add.TabIndex = 6;
             this.btn_add.Text = "ADD UNIT";
             this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // gb_pos
             // 
@@ -147,6 +153,7 @@
             this.btn_addpos.TabIndex = 3;
             this.btn_addpos.Text = "CHANGE";
             this.btn_addpos.UseVisualStyleBackColor = true;
+            this.btn_addpos.Click += new System.EventHandler(this.btn_addpos_Click);
             // 
             // l_position
             // 
@@ -184,14 +191,14 @@
             this.Controls.Add(this.gb_pos);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.l3);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.num_amount);
             this.Controls.Add(this.l2);
             this.Controls.Add(this.unitInfo_box);
             this.Controls.Add(this.l1);
             this.Controls.Add(this.listBox_units);
             this.Name = "ListUnitForm";
             this.Text = "ListUnitForm";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num_amount)).EndInit();
             this.gb_pos.ResumeLayout(false);
             this.gb_pos.PerformLayout();
             this.ResumeLayout(false);
@@ -205,7 +212,7 @@
         private System.Windows.Forms.Label l1;
         private System.Windows.Forms.RichTextBox unitInfo_box;
         private System.Windows.Forms.Label l2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown num_amount;
         private System.Windows.Forms.Label l3;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.GroupBox gb_pos;
