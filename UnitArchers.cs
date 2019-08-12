@@ -46,6 +46,11 @@ namespace TheBattleSimulator
         public int UnitPower { get; set; }
         public int UnitTotalPower { get{ return (UnitPower*UnitAmount); } }
         public string UnitName { get; set; }
+        public int UnitInciativy { get { 
+                if(INC+MOV>0)return INC+MOV;
+                else return 1;
+                 }
+        }
         public DefPos MyDefPosition { get{ return MyPosition;} set{
                 if(value==null){MyLeader=null; Leader=false;}
                 MyPosition=value;

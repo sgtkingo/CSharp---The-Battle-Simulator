@@ -168,6 +168,7 @@
             resources.ApplyResources(this.a_btn_listunit, "a_btn_listunit");
             this.a_btn_listunit.Name = "a_btn_listunit";
             this.a_btn_listunit.UseVisualStyleBackColor = true;
+            this.a_btn_listunit.Click += new System.EventHandler(this.a_btn_listunit_Click);
             // 
             // a_btn_addunit
             // 
@@ -343,6 +344,7 @@
             resources.ApplyResources(this.e_btn_listunit, "e_btn_listunit");
             this.e_btn_listunit.Name = "e_btn_listunit";
             this.e_btn_listunit.UseVisualStyleBackColor = true;
+            this.e_btn_listunit.Click += new System.EventHandler(this.e_btn_listunit_Click);
             // 
             // e_btn_addunit
             // 

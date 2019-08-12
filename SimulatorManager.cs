@@ -143,7 +143,7 @@ namespace TheBattleSimulator
         }
         public void WriteResult(int AW, int EW, double AvgBalance, int BestShot){
             SimulatorConsoleBox.WriteLineToConsole(("Ally wins "+AW+" , enemy wins: "+EW+" -> total balance: "+AvgBalance),ConsoleBox.LineType.Bold);
-            SimulatorConsoleBox.WriteLineToConsole(("Best Shot: "+BestShot),ConsoleBox.LineType.Bold);
+            SimulatorConsoleBox.WriteLineToConsole(("\t\tBest Shot: "+BestShot),ConsoleBox.LineType.Bold);
             if(AW>EW){ 
                 Winner=true;
                 SimulatorConsoleBox.WriteLineToConsole("\t\tWINNER: ALLY",ConsoleBox.LineType.Bold);

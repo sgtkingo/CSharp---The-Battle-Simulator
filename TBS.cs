@@ -201,5 +201,23 @@ namespace TheBattleSimulator
                 refreshBoxes();
             };
         }
+
+        private void a_btn_listunit_Click(object sender, EventArgs e)
+        {
+            ListUnitForm listUnitForm=new ListUnitForm(PrimalManager,TypesEnums.UnitSide.Ally);
+            listUnitForm.Show();
+            listUnitForm.FormClosed += (senderr,ee) =>{
+                refreshBoxes();
+            };
+        }
+
+        private void e_btn_listunit_Click(object sender, EventArgs e)
+        {
+            ListUnitForm listUnitForm=new ListUnitForm(PrimalManager,TypesEnums.UnitSide.Enemy);
+            listUnitForm.Show();
+            listUnitForm.FormClosed += (senderr,ee) =>{
+                refreshBoxes();
+            };
+        }
     }
 }

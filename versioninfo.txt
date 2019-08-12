@@ -1,0 +1,11 @@
+VERSION		DESCRIPITION
+------------------------------
+1.0.0		Composite Manager system 
+1.0.1		Defence position Form and Manager develop
+1.0.2		Unit Form and Manager develop
+1.0.3		Land Form and Manager develop
+1.0.4		Simulator Form and Manager develop - serail type
+1.0.5		Simulator multithreading ready
+1.0.6		Battle simulated fixed
+1.0.7		Unit loader prepare
+1.0.8		Unit loader finish

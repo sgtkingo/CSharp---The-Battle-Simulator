@@ -45,12 +45,9 @@ namespace TheBattleSimulator
                 PrimalSimulator.CancelSimulation=true;
                 return;
             } 
-            int LuckCounter=1;
-            if((AllyAmount*EnemyAmount)<1000000)LuckCounter=(AllyAmount*EnemyAmount);
-            else LuckCounter=(AllyAmount+EnemyAmount);
 
-            AllyLuck=LuckGenerator(rng.Next(LuckCounter));
-            EnemyLuck=LuckGenerator(rng.Next(LuckCounter));
+            AllyLuck=LuckGenerator(IniciativyPowerGenerator(TypesEnums.UnitSide.Ally));
+            EnemyLuck=LuckGenerator(IniciativyPowerGenerator(TypesEnums.UnitSide.Enemy));
  
             AllyBattlePower=AllyLuck+PrimalSimulator.UnitManager.getTotalForce(TypesEnums.UnitSide.Ally);
             EnemyBattlePower=EnemyLuck+PrimalSimulator.UnitManager.getTotalForce(TypesEnums.UnitSide.Enemy);
@@ -76,6 +73,16 @@ namespace TheBattleSimulator
                 tmp=0;
             }
             return total;
+        }
+
+        public int IniciativyPowerGenerator(TypesEnums.UnitSide T){
+            int tmp_inc=1;
+            foreach(IUnit U in PrimalSimulator.UnitManager.getUnitsList(T)){ 
+                for(int i=0; i<U.UnitAmount; i++){ 
+                    tmp_inc+=LuckGenerator(U.UnitInciativy);    
+                }    
+            }
+            return tmp_inc;
         }
 
     }

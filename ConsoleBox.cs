@@ -43,7 +43,7 @@ namespace TheBattleSimulator
             this.WriteToConsole(txt);
         }
         public void SaveToFile(string file){ 
-        string path = @"Report\"+file;
+        string path = @"report\"+file;
 
         // Delete the file if it exists.
         if (File.Exists(path))

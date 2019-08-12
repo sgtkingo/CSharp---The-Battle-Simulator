@@ -13,6 +13,7 @@ namespace TheBattleSimulator
         Land MyLand{ get;set;}
 
         int UnitAmount { get;set;}
+        int UnitInciativy { get;}
         int UnitPower{ get; set;}
         int UnitTotalPower{ get;}
 

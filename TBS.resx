@@ -117,18 +117,198 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;a_btn_edit_units.Name" xml:space="preserve">
+    <value>a_btn_edit_units</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_units.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_units.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_units.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_units.Name" xml:space="preserve">
+    <value>a_btn_del_units</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_units.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_units.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_units.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_defpos.Name" xml:space="preserve">
+    <value>a_btn_edit_defpos</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_defpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_defpos.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_edit_defpos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_defpos.Name" xml:space="preserve">
+    <value>a_btn_del_defpos</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_defpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_defpos.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_del_defpos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_units.Name" xml:space="preserve">
+    <value>a_chlw_units</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_units.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_units.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_units.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_defpos.Name" xml:space="preserve">
+    <value>a_chlw_defpos</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_defpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_defpos.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_chlw_defpos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_arch.Name" xml:space="preserve">
+    <value>a_rbt_arch</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_arch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_arch.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_arch.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_cavalerly.Name" xml:space="preserve">
+    <value>a_rbt_cavalerly</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_cavalerly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_cavalerly.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_cavalerly.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_inf.Name" xml:space="preserve">
+    <value>a_rbt_inf</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_inf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_inf.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_rbt_inf.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_or.Name" xml:space="preserve">
+    <value>label_or</value>
+  </data>
+  <data name="&gt;&gt;label_or.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_or.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;label_or.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;a_btn_listunit.Name" xml:space="preserve">
+    <value>a_btn_listunit</value>
+  </data>
+  <data name="&gt;&gt;a_btn_listunit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_listunit.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_listunit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;a_btn_addunit.Name" xml:space="preserve">
+    <value>a_btn_addunit</value>
+  </data>
+  <data name="&gt;&gt;a_btn_addunit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_addunit.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_addunit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;a_btn_adddefpos.Name" xml:space="preserve">
+    <value>a_btn_adddefpos</value>
+  </data>
+  <data name="&gt;&gt;a_btn_adddefpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_btn_adddefpos.Parent" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_btn_adddefpos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="a_gbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <data name="a_gbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 350</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="a_gbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="a_gbox.Text" xml:space="preserve">
+    <value>ALIES</value>
+  </data>
+  <data name="&gt;&gt;a_gbox.Name" xml:space="preserve">
+    <value>a_gbox</value>
+  </data>
+  <data name="&gt;&gt;a_gbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a_gbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;a_gbox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="a_btn_edit_units.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="a_btn_edit_units.Location" type="System.Drawing.Point, System.Drawing">
     <value>286, 307</value>
   </data>
   <data name="a_btn_edit_units.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 37</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="a_btn_edit_units.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
@@ -462,30 +642,6 @@
   <data name="&gt;&gt;a_btn_adddefpos.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="a_gbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 0</value>
-  </data>
-  <data name="a_gbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>350, 350</value>
-  </data>
-  <data name="a_gbox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="a_gbox.Text" xml:space="preserve">
-    <value>ALIES</value>
-  </data>
-  <data name="&gt;&gt;a_gbox.Name" xml:space="preserve">
-    <value>a_gbox</value>
-  </data>
-  <data name="&gt;&gt;a_gbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;a_gbox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;a_gbox.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="label_tf_a.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -648,6 +804,90 @@
   <data name="&gt;&gt;rt_console.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;l_weather.Name" xml:space="preserve">
+    <value>l_weather</value>
+  </data>
+  <data name="&gt;&gt;l_weather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_weather.Parent" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;l_weather.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;l_landinfo.Name" xml:space="preserve">
+    <value>l_landinfo</value>
+  </data>
+  <data name="&gt;&gt;l_landinfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_landinfo.Parent" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;l_landinfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;l_weathertext.Name" xml:space="preserve">
+    <value>l_weathertext</value>
+  </data>
+  <data name="&gt;&gt;l_weathertext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_weathertext.Parent" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;l_weathertext.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;l_landinfotext.Name" xml:space="preserve">
+    <value>l_landinfotext</value>
+  </data>
+  <data name="&gt;&gt;l_landinfotext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l_landinfotext.Parent" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;l_landinfotext.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_landsetting.Name" xml:space="preserve">
+    <value>btn_landsetting</value>
+  </data>
+  <data name="&gt;&gt;btn_landsetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_landsetting.Parent" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;btn_landsetting.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gb_land.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 475</value>
+  </data>
+  <data name="gb_land.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 82</value>
+  </data>
+  <data name="gb_land.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gb_land.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="&gt;&gt;gb_land.Name" xml:space="preserve">
+    <value>gb_land</value>
+  </data>
+  <data name="&gt;&gt;gb_land.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_land.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_land.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="l_weather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -788,30 +1028,6 @@
   </data>
   <data name="&gt;&gt;btn_landsetting.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="gb_land.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 475</value>
-  </data>
-  <data name="gb_land.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 82</value>
-  </data>
-  <data name="gb_land.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="gb_land.Text" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="&gt;&gt;gb_land.Name" xml:space="preserve">
-    <value>gb_land</value>
-  </data>
-  <data name="&gt;&gt;gb_land.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_land.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gb_land.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="e_btn_edit_units.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

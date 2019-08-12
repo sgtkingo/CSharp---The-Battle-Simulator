@@ -88,6 +88,11 @@ namespace TheBattleSimulator
 
         public Weather MyWeather { get; set; }
         public Land MyLand { get; set; }
+        public int UnitInciativy { get { 
+                if(INC+MOV>0)return INC+MOV;
+                else return 1;
+                 }
+        }
 
         public void CalcUnitBonus()
         {
